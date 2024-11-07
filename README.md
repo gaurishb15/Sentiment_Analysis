@@ -1,6 +1,3 @@
-Here is a README file for your "Sentiment Classification using Deep Learning" project:
-
----
 
 # Sentiment Classification using Deep Learning
 
@@ -50,7 +47,3 @@ The model struggled with longer sentences due to the fixed maximum length, which
 ## Conclusion
 
 This project showcases the power of Transformers in natural language processing tasks, particularly in sentiment analysis. Future improvements could involve refining the pre-processing pipeline by building a custom vocabulary and filtering stop words.
-
----
-
-Feel free to copy and paste this into your GitHub README file. Let me know if you'd like any adjustments.
