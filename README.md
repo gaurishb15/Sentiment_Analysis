@@ -1,7 +1,3 @@
-Here’s a simple and effective **README** file for your project:
-
----
-
 # **Sentiment Classification Using a Custom Transformer Model**
 
 ## **Overview**
@@ -20,39 +16,6 @@ The project includes all steps, from data preprocessing to model evaluation, ach
 - **Pre-trained GloVe Embeddings**: Used 100-dimensional GloVe embeddings for word representation.  
 - **End-to-End Pipeline**: Includes data preprocessing, training, evaluation, and inference.  
 - **Robust Performance**: Achieved F1 scores of 0.658 on the validation set and 0.646 on the test set.  
-
----
-
-## **Steps to Run the Project**
-
-### 1. **Clone the Repository**
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
-### 2. **Install Dependencies**
-Ensure you have Python installed. Install the required libraries using pip:
-```bash
-pip install -r requirements.txt
-```
-
-### 3. **Prepare the Dataset**
-- Add the dataset to the `/data` folder in the repository.
-- The dataset should include a training file (`train.csv`) and a test file (`test.csv`).
-
-### 4. **Train the Model**
-Run the training script:
-```bash
-python train_model.py
-```
-This will preprocess the data and train the Transformer model. Each epoch takes approximately 25–30 minutes on Google Colab.
-
-### 5. **Evaluate the Model**
-After training, evaluate the model on the test set:
-```bash
-python evaluate_model.py
-```
 
 ---
 
@@ -110,15 +73,3 @@ The model performed robustly, achieving competitive F1 scores on both validation
 
 Install all dependencies using `requirements.txt`.
 
----
-
-## **Acknowledgments**
-This project was developed under the guidance of **Prof. Subhra Sankar Dhar**, Department of Statistics and Data Science, IIT Kanpur.
-
----
-
-Feel free to raise an issue if you have any questions or feedback!
-
---- 
-
-Replace `<your-username>` and `<repo-name>` with the actual values in your GitHub repository. This README file is beginner-friendly, concise, and provides clear instructions for running the project.
